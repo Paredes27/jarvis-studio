@@ -1,8 +1,8 @@
 # Jarvis Studio — site estático
 
 O que é: páginas públicas (GitHub Pages) das marcas GamingJarvis e JarvisTests — início, Termos,
-Privacidade e a página do Redirect URI do TikTok (`/ligado/`), usadas pelo Nexus
-(`~/Projects/nexus`, `docs/15-CONTEUDO.md` §3).
+Privacidade e a página do Redirect URI do TikTok (`/ligado/`), usadas pelo Nexo
+(`~/Projects/nexo`, `docs/15-CONTEUDO.md` §3).
 
 - Stack: HTML + CSS à mão, sem build. `.nojekyll` para servir tudo tal como está.
 - Testar: abrir os `index.html` no browser; publicar = `git push` para `main` (Pages a partir de `/`).

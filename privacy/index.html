@@ -3,37 +3,69 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy · Jarvis Studio</title>
-<link rel="stylesheet" href="/jarvis-studio/style.css">
+<title>Privacy Policy - Side Quest Radar</title>
+<meta name="description" content="How Side Quest Radar and the Side Quest Radar Publisher web app handle data, including data received from TikTok.">
+<link rel="stylesheet" href="../style.css">
 </head>
 <body>
+<header>
+<a class="brand" href="../">Side Quest Radar</a>
+<nav aria-label="Main"><a href="../terms/">Terms of Service</a><a href="../privacy/">Privacy Policy</a></nav>
+</header>
 <main>
-<nav><a href="/jarvis-studio/">Jarvis Studio</a><a href="/jarvis-studio/terms/">Terms of Service</a><a href="/jarvis-studio/privacy/">Privacy Policy</a></nav>
 <h1>Privacy Policy</h1>
-<p>This policy explains what data Nexus Publisher, the internal tool behind Jarvis Studio, uses, and why.</p>
-<h2>1. Who uses the tool</h2>
-<p>Only the owner of Jarvis Studio uses Nexus Publisher, and only for our own accounts (GamingJarvis and JarvisTests). It does not offer sign-in to the public and does not collect data from viewers or other users.</p>
-<h2>2. Data we access</h2>
-<p>We access the following, with our own authorization, through the official APIs of TikTok, Instagram and YouTube:</p>
+<p class="muted">Last updated: 12 November 2026</p>
+
+<h2>1. Who is responsible</h2>
+<p>The Side Quest Radar website and the <strong>Side Quest Radar Publisher</strong> web app are operated by [PREENCHER: nome completo do operador], Arcos de Valdevez, Portugal. Contact for privacy questions and requests: [PREENCHER: email da SQR].</p>
+
+<h2>2. What the Service is</h2>
+<p>Side Quest Radar Publisher publishes original short videos to TikTok, Instagram and YouTube accounts that their owners have connected through each platform's official authorization screen. The website itself does not use accounts, advertising or analytics cookies.</p>
+
+<h2>3. Data we receive from TikTok</h2>
+<p>When an account owner connects TikTok, we request four permissions (scopes) and nothing else:</p>
+<table>
+<tr><th>Scope</th><th>What we receive or do</th><th>Why</th></tr>
+<tr><td><code>user.info.basic</code></td><td>The account's open ID and display name; creator info (nickname, privacy options available, interaction settings, maximum video length).</td><td>To identify the connected account and to show the owner which account will receive a post and which options TikTok allows.</td></tr>
+<tr><td><code>user.info.profile</code></td><td>The account's username (the @name).</td><td>To show "Connected as @username" in the app.</td></tr>
+<tr><td><code>video.publish</code></td><td>Permission to publish a video the owner has approved, with the settings the owner chose.</td><td>To post to the owner's profile after the owner confirms.</td></tr>
+<tr><td><code>video.upload</code></td><td>Permission to upload a video as a draft to the owner's TikTok inbox.</td><td>For accounts where direct posting is not available: the owner finishes the post inside TikTok.</td></tr>
+</table>
+<p>We do not read the account's followers, messages, contacts, viewing history or other people's data, and we do not receive the account's password.</p>
+
+<h2>4. Other data we handle</h2>
 <ul>
-  <li>basic profile information of our own accounts (account ID, username);</li>
-  <li>statistics of our own accounts and videos (followers, views, likes, comments, shares);</li>
-  <li>the access tokens needed to post our videos and read those statistics.</li>
+<li><strong>Videos, titles and captions</strong> that the owner chooses to publish, and the publishing settings chosen for each post.</li>
+<li><strong>Technical records</strong> of what was published and when (post status, time, error messages), kept to run the Service and to resolve problems.</li>
+<li><strong>Access tokens</strong> issued by TikTok, Instagram and YouTube so that the app can publish on the owner's behalf.</li>
 </ul>
-<p>We never access other people's accounts, messages or personal data.</p>
-<h2>3. How we use and store it</h2>
+<p>The Service is not aimed at children and we do not knowingly collect data from anyone under 16.</p>
+
+<h2>5. How we store and protect it</h2>
+<p>Access tokens are stored in a file with restricted permissions (readable only by the service user) on the server run by the operator. They are sent only over encrypted connections (HTTPS), never written to logs, and never shown in the app. We do not sell, rent or share this data, and we do not use it for advertising or profiling. We share data only with the platform you publish to (to carry out your post) and with infrastructure providers needed to run the server.</p>
+
+<h2>6. How long we keep it</h2>
 <ul>
-  <li>The statistics are used only to measure how our own videos perform.</li>
-  <li>Tokens travel only over encrypted connections (HTTPS) and are kept on our private server in a file that only the tool can read. They are never shared or written to logs.</li>
-  <li>We do not sell, rent or share this data with anyone, and we do not use it for advertising.</li>
+<li>Tokens are kept while the account is connected and deleted when you disconnect it.</li>
+<li>Publishing records are kept for up to 12 months and then deleted.</li>
+<li>Videos are kept only until they have been published, or until you delete them.</li>
 </ul>
-<h2>4. Retention and deletion</h2>
-<p>Statistics are kept while the accounts are active. To stop all access, we revoke the tool in each platform's settings and delete the stored tokens and statistics from our server.</p>
-<h2>5. Google and YouTube</h2>
-<p>For YouTube, Nexus Publisher uses the YouTube API Services. See the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. You can revoke an app's access to a Google account at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
-<h2>6. Contact</h2>
-<p>Questions about this policy: open an issue in our <a href="https://github.com/Paredes27/jarvis-studio/issues">repository</a> or send a direct message to one of our accounts.</p>
-<p class="dim">Last updated: 28 October 2026.</p>
+
+<h2>7. Your choices and rights</h2>
+<ul>
+<li><strong>Disconnect.</strong> In the app, open Connect account and press Disconnect on the TikTok row. This deletes the stored tokens on our server; it does not revoke the authorization on TikTok's side. To revoke it too, go to TikTok: Settings and privacy, Security and permissions, Apps and websites.</li>
+<li><strong>Your rights.</strong> Under the GDPR and similar laws you can ask us to access, correct, delete or export your data, to restrict or object to its processing, and to complain to your data protection authority (in Portugal, the CNPD). Write to [PREENCHER: email da SQR] and we will answer within one month.</li>
+</ul>
+
+<h2>8. Third-party platforms</h2>
+<p>When you connect an account, the platform's own terms and privacy policy also apply: <a href="https://www.tiktok.com/legal/page/global/privacy-policy/en">TikTok Privacy Policy</a>, <a href="https://privacycenter.instagram.com/policy">Instagram Privacy Policy</a> and <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. For YouTube, the Service uses the YouTube API Services, and you can revoke its access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+<h2>9. Changes</h2>
+<p>If we change this policy, we update the date above. See also our <a href="../terms/">Terms of Service</a>.</p>
 </main>
+<footer>
+<p><a href="../terms/">Terms of Service</a><a href="../privacy/">Privacy Policy</a></p>
+<p>Side Quest Radar is operated by [PREENCHER: nome completo do operador]. Contact: [PREENCHER: email da SQR].</p>
+</footer>
 </body>
 </html>
